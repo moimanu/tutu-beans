@@ -1,0 +1,179 @@
+.tutu-header-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tutu-settings-icon {
+    display: flex;
+}
+
+.tutu-settings-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.tutu-settings-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text-normal);
+    line-height: 1;
+}
+
+.modal.tutu-modal-container {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    border: 2px solid var(--text-normal);
+}
+
+.tutu-modal-content {
+    align-self: flex-start;
+    text-align: left;
+    width: 100%;
+}
+
+.tutu-modal-content h2 {
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+.modal-header {
+    margin: 0px;
+}
+
+.modal {
+    width: 500px;
+}
+
+.modal.tutu-sync-modal-native {
+    width: 700px;
+    height: 500px;
+    max-height: 80vh;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-l);
+    box-shadow: var(--shadow-l);
+    background-color: var(--background-primary);
+}
+
+.tutu-native-title {
+    font-size: var(--font-l);
+    color: var(--text-normal);
+    margin: 0px 0px 20px 0px;
+    font-weight: var(--font-semibold);
+}
+
+.tutu-nav-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--background-modifier-border);
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.tutu-nav-tab {
+    padding: 8px 4px;
+    cursor: pointer;
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.tutu-nav-tab:hover {
+    color: var(--text-normal);
+}
+
+.tutu-nav-tab.is-active {
+    color: var(--interactive-accent);
+    border-bottom: 2px solid var(--interactive-accent);
+    font-weight: var(--font-medium);
+}
+
+.tutu-native-scroll-area {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.tutu-native-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.tutu-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: var(--radius-s);
+    background-color: var(--background-primary);
+    cursor: pointer;
+}
+
+.tutu-list-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.tutu-item-info {
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-3);
+    color: var(--text-normal);
+}
+
+.tutu-item-icon {
+    display: flex;
+}
+
+.tutu-item-icon svg {
+    width: 16px;
+    height: 16px;
+    color: var(--text-muted);
+}
+
+.tutu-item-name {
+    font-size: var(--font-ui-small);
+}
+
+.tutu-item-action-delete {
+    color: var(--text-error);
+    opacity: 0.5;
+    display: flex;
+    border-radius: var(--radius-s);
+}
+
+.tutu-item-action-delete:hover {
+    color: white;
+    opacity: 1;
+}
+
+.tutu-empty-state {
+    padding: 40px;
+    text-align: center;
+    color: var(--text-faint);
+    font-style: italic;
+}
+
+.tutu-modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tutu-settings-warning {
+    color: var(--text-warning);
+    font-size: var(--font-ui-smaller);
+    background-color: #242424;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.tutu-settings-info {
+    font-size: var(--font-ui-smaller);
+    background-color: #242424;
+    padding: 8px;
+    border-radius: 4px;
+}

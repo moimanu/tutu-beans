@@ -1,0 +1,10 @@
+{
+  "id": "tutu-beans",
+  "name": "Tutu Beans",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Plugin for uploading local articles and injecting properties.", 
+  "author": "Moisés Emanuel",
+  "authorUrl": "https://github.com/moimanu",
+  "isDesktopOnly": true
+}

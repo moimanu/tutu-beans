@@ -1,6 +1,6 @@
 {
     "name": "tutu-beans",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Obsidian plugin for automated local article publishing and smart property injection.",
     "main": "main.js",
     "scripts": {

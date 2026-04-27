@@ -1,6 +1,6 @@
 # 🫘 Tutu Beans
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **Tutu Beans** is a high-performance **Obsidian** plugin designed to automate the article publishing lifecycle. It allows designers and developers to send local notes to a custom backend, automatically managing metadata via frontmatter and handling attachments (images) natively.
@@ -148,4 +148,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
 **Author:** Moisés Emanuel  
-**Version:** 1.0.0
+**Version:** 0.1.0
